@@ -3,17 +3,17 @@ import viteLogo from '../assets/vite.svg'
 
 function Made() {
     return (
-    <div>
-        <div>
-            <a href="https://vitejs.dev" target="_blank">
-                <img src={viteLogo} className="logo" alt="Vite logo" />
-            </a>
-            <a href="https://reactjs.org" target="_blank">
-                <img src={reactLogo} className="logo react" alt="React logo" />
-            </a>
+        <div className="flex items-center justify-center flex-col text-center p-5 pt-20 pb-6 col-md-4">
+            <div>
+                <a href="https://vitejs.dev" target="_blank">
+                    <img src={viteLogo} className="logo" alt="Vite logo" />
+                </a>
+                <a href="https://reactjs.org" target="_blank">
+                    <img src={reactLogo} className="logo react" alt="React logo" />
+                </a>
+            </div>
+            <h4>Made with Vite + React</h4>
         </div>
-        <h4>Made with Vite + React</h4>
-    </div>
     )
 }
 

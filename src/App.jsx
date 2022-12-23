@@ -1,4 +1,3 @@
-import './App.css'
 import Info from './Components/Info'
 import Experience from './Components/Experience'
 import Projects from './Components/Projects'
@@ -10,15 +9,15 @@ import Made from './Components/Made'
 
 function App() {
   return (
-    <div className="App">
-      <Info/>
-      <Experience/>
-      <Projects/>
-      <Education/>
-      <Skills/>
-      <References/>
-      <Contact/>
-      <Made/>
+    <div className="App bg-dark text-white columns-3 row">
+      <Info />
+      <Projects />
+      <Experience />
+      <Education />
+      <Skills />
+      <References />
+      <Contact />
+      <Made />
     </div>
   )
 }
