@@ -3,8 +3,8 @@ import viteLogo from '../assets/vite.svg'
 
 function Made() {
     return (
-        <div className="flex items-center justify-center flex-col text-center p-5 pt-20 pb-6 col-md-4">
-            <div>
+        <div className="flex items-center justify-center flex-col text-center p-5 pt-20 pb-6">
+            <div className='pb-3'>
                 <a href="https://vitejs.dev" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
                 </a>
